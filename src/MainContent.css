@@ -1,0 +1,191 @@
+@keyframes popOut {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.MainContent-Container{
+    text-align: center;
+    overflow: hidden;
+    background: #121212;
+    color: #ffffff;
+}
+
+.MainContent-Container .MainContent{
+    padding: 50px 0;
+    margin-top: 70px;
+}
+
+.MainContent-Container .MainContent .Profile{
+    pointer-events: none;
+    height: 300px;
+    border-radius: 50%;
+    animation: popOut 0.5s;
+}
+
+.MainContent-Container .MainContent h2{
+    margin: 15px 0;
+    animation: popOut 1s;
+}
+
+.MainContent-Container .MainContent .Description{
+    margin: 5px 0;
+    animation: popOut 1s;
+}
+
+.MainContent-Container .MainContent .Description p{
+    font-weight: 500;
+    width: 90%;
+    margin: auto;
+}
+
+.MainContent-Container .MainContent .SocialMedia{
+    margin-top: 24px;
+}
+
+.MainContent-Container .MainContent .SocialMedia ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li{
+    list-style: none;
+    animation: slideRight .5s backwards;
+    transition: .3s ease;
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(1):hover{
+    transform: rotate(10deg) scale(1.5);
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(2):hover{
+    transform: rotate(-10deg) scale(1.5);
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(3):hover{
+    transform: rotate(10deg) scale(1.5);
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(4):hover{
+    transform: rotate(-10deg) scale(1.5);
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(1):active{
+    transform: scale(0.9);
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(2):active{
+    transform: scale(0.9);
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(3):active{
+    transform: scale(0.9);
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(4):active{
+    transform: scale(0.9);
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(1){
+    animation-delay: 0.5s;
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(2){
+    animation-delay: 0.4s;
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li:nth-child(4){
+    animation-delay: 0;
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+.MainContent-Container .MainContent .SocialMedia ul li img{
+    height: 35px;
+    pointer-events: none;
+}
+
+@media (max-width: 768px)  {
+    .MainContent-Container .MainContent{
+        padding: 25px 0;
+    }
+
+    .MainContent-Container .MainContent .Profile{
+        height: 250px;
+    }
+
+    .MainContent-Container .MainContent h2{
+        font-size: 20px;
+    }
+    
+    .MainContent-Container .MainContent .Description p{
+        font-size: 13px;
+        width: 90%;
+    }
+
+    .MainContent-Container .MainContent .SocialMedia ul li img{
+        height: 30px;
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 425px)  {
+    .MainContent-Container .MainContent{
+        padding: 25px 0;
+    }
+
+    .MainContent-Container .MainContent .Profile{
+        height: 200px;
+    }
+
+    .MainContent-Container .MainContent h2{
+        font-size: 18px;
+    }
+    
+    .MainContent-Container .MainContent .Description p{
+        font-size: 13px;
+        width: 80%;
+    }
+
+    .MainContent-Container .MainContent .SocialMedia{
+        margin-top: 20px;
+    }
+
+    .MainContent-Container .MainContent .SocialMedia ul li img{
+        height: 30px;
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul{
+        gap: 10px;
+    }
+}
