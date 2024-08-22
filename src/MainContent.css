@@ -150,6 +150,38 @@
         width: 90%;
     }
 
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(1):hover{
+        transform: none;
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(2):hover{
+        transform: none;
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(3):hover{
+        transform: none;
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(4):hover{
+        transform: none;
+    }
+
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(1):active{
+        transform: scale(0.9);
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(2):active{
+        transform: scale(0.9);
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(3):active{
+        transform: scale(0.9);
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(4):active{
+        transform: scale(0.9);
+    }
+
     .MainContent-Container .MainContent .SocialMedia ul li img{
         height: 30px;
     }
@@ -179,6 +211,38 @@
 
     .MainContent-Container .MainContent .SocialMedia{
         margin-top: 20px;
+    }
+
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(1):hover{
+        transform: none;
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(2):hover{
+        transform: none;
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(3):hover{
+        transform: none;
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(4):hover{
+        transform: none;
+    }
+
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(1):active{
+        transform: scale(0.9);
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(2):active{
+        transform: scale(0.9);
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(3):active{
+        transform: scale(0.9);
+    }
+    
+    .MainContent-Container .MainContent .SocialMedia ul li:nth-child(4):active{
+        transform: scale(0.9);
     }
 
     .MainContent-Container .MainContent .SocialMedia ul li img{
