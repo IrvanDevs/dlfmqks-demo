@@ -284,6 +284,51 @@
     }
 }
 
+@media (max-width: 768px) {
+    .Album-Container:hover{
+        transform: none;
+    }
+    
+    .Album-Container:active{
+        transform: scale(0.9);
+    }
+
+    .Tracklist-Container ul a li:hover {
+        background: #ffffff;
+    }
+    
+    .Tracklist-Container ul a li:active {
+        background: #d8d8d8;
+    }
+    
+    .Tracklist-Container ul.single-track a:nth-child(1) li:hover {
+        background: #ffffff;
+    }
+    
+    .Tracklist-Container ul.single-track a:nth-child(1) li:active {
+        background: #d8d8d8;
+        border-radius: 12px;
+    }
+    
+    .Tracklist-Container ul:not(.single-track) a:nth-child(1) li:hover {
+        background: #ffffff;
+    }
+    
+    .Tracklist-Container ul:not(.single-track) a:nth-child(1) li:active {
+        background: #d8d8d8;
+        border-radius: 12px 12px 0 0;
+    }
+    
+    .Tracklist-Container ul:not(.single-track) a:last-child li:hover {
+        background: #ffffff;
+    }
+    
+    .Tracklist-Container ul:not(.single-track) a:last-child li:active {
+        background: #d8d8d8;
+        border-radius: 0 0 12px 12px;
+    }
+}
+
 @media (max-width: 598px) {
     .Discography {
         grid-template-columns: repeat(1, 1fr);
@@ -348,8 +393,8 @@
 
     .Track-Container .Right .Duration{
         font-size: 11px;
-        font-weight: 500;
-        padding-top: 6px;
+        font-weight: 600;
+        padding-top: 10px;
         margin: 0;  
     }
 
@@ -399,10 +444,10 @@
 
     .Track-Container .Right .Duration{
         font-size: 10px;
-        font-weight: 500;
-        width: 50px;
-        height: 10px;
-        padding-bottom: 10px;
+        font-weight: 600;
+        width: 60px;
+        height: 5px;
+        padding-bottom: 18px;
         margin: 0;  
     }
 
@@ -446,10 +491,10 @@
 
     .Track-Container .Right .Duration{
         font-size: 10px;
-        font-weight: 500;
-        width: 50px;
-        height: 10px;
-        padding-bottom: 10px;
+        font-weight: 600;
+        width: 60px;
+        height: 5px;
+        padding-bottom: 18px;
         margin: 0;  
     }
 
