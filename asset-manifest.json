@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/dlfmqks-demo/static/css/main.e1590b75.css",
+    "main.js": "/dlfmqks-demo/static/js/main.2e672d2e.js",
+    "static/media/NotoSansSC-bold.ttf": "/dlfmqks-demo/static/media/NotoSansSC-bold.85a2e9887d5f93978906.ttf",
+    "static/media/SCDream-extrabold.otf": "/dlfmqks-demo/static/media/SCDream-extrabold.a8d826f4cafb0e728051.otf",
+    "static/media/SCDream-medium2.otf": "/dlfmqks-demo/static/media/SCDream-medium2.ae5ee4933db75a3ccb04.otf",
+    "static/media/SCDream-medium.otf": "/dlfmqks-demo/static/media/SCDream-medium.64c9dc7c860af7a004ad.otf",
+    "static/media/last.jpg": "/dlfmqks-demo/static/media/last.9cac306d9c77785c45f7.jpg",
+    "static/media/egol.jpg": "/dlfmqks-demo/static/media/egol.d01208df9aa3b2791ace.jpg",
+    "static/media/ffte.jpg": "/dlfmqks-demo/static/media/ffte.acbfd02fbbbd4e1c209e.jpg",
+    "static/media/wsbs.jpg": "/dlfmqks-demo/static/media/wsbs.3ccb748c0982d18ed950.jpg",
+    "static/media/sosor.jpg": "/dlfmqks-demo/static/media/sosor.aa5ac183f505aaf07b7e.jpg",
+    "static/media/profile.jpg": "/dlfmqks-demo/static/media/profile.0eacbc0c0dcbadb256aa.jpg",
+    "static/media/yyzx.jpg": "/dlfmqks-demo/static/media/yyzx.41f2e8c01cf25428e058.jpg",
+    "static/media/wycf.jpg": "/dlfmqks-demo/static/media/wycf.59bdd93283d9f87e1192.jpg",
+    "static/media/nbm.jpg": "/dlfmqks-demo/static/media/nbm.adf126ae4e3bc55eacfa.jpg",
+    "static/media/ig-logo.png": "/dlfmqks-demo/static/media/ig-logo.4aef0524c0e44d4ef3e0.png",
+    "static/media/sfl.jpg": "/dlfmqks-demo/static/media/sfl.c24ccf90b634033c786f.jpg",
+    "static/media/sp-logo.png": "/dlfmqks-demo/static/media/sp-logo.c92c54f0bfb47b65981e.png",
+    "static/media/am-logo.png": "/dlfmqks-demo/static/media/am-logo.284102ddf623106edf19.png",
+    "static/media/yt-logo.png": "/dlfmqks-demo/static/media/yt-logo.f0ccb8991ca6172c3203.png",
+    "index.html": "/dlfmqks-demo/index.html",
+    "main.e1590b75.css.map": "/dlfmqks-demo/static/css/main.e1590b75.css.map",
+    "main.2e672d2e.js.map": "/dlfmqks-demo/static/js/main.2e672d2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1590b75.css",
+    "static/js/main.2e672d2e.js"
+  ]
+}
