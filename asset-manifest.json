@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dlfmqks-demo/static/css/main.e1590b75.css",
+    "main.css": "/dlfmqks-demo/static/css/main.f9f5845f.css",
     "main.js": "/dlfmqks-demo/static/js/main.2e672d2e.js",
     "static/media/NotoSansSC-bold.ttf": "/dlfmqks-demo/static/media/NotoSansSC-bold.85a2e9887d5f93978906.ttf",
     "static/media/SCDream-extrabold.otf": "/dlfmqks-demo/static/media/SCDream-extrabold.a8d826f4cafb0e728051.otf",
@@ -21,11 +21,11 @@
     "static/media/am-logo.png": "/dlfmqks-demo/static/media/am-logo.284102ddf623106edf19.png",
     "static/media/yt-logo.png": "/dlfmqks-demo/static/media/yt-logo.f0ccb8991ca6172c3203.png",
     "index.html": "/dlfmqks-demo/index.html",
-    "main.e1590b75.css.map": "/dlfmqks-demo/static/css/main.e1590b75.css.map",
+    "main.f9f5845f.css.map": "/dlfmqks-demo/static/css/main.f9f5845f.css.map",
     "main.2e672d2e.js.map": "/dlfmqks-demo/static/js/main.2e672d2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1590b75.css",
+    "static/css/main.f9f5845f.css",
     "static/js/main.2e672d2e.js"
   ]
 }
