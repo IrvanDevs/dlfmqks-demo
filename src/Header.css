@@ -1,0 +1,45 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Header{
+    width: 100%;
+    overflow: hidden;
+    background: #121212;
+    box-shadow: -1px 3px 6px 1px rgba(255, 255, 255, 0.2);
+    -webkit-box-shadow: -1px 3px 6px 1px rgba(255,255,255,0.2);
+    -moz-box-shadow: -1px 3px 6px 1px rgba(255,255,255,0.2);
+    position: fixed;
+    z-index: 1000;
+    animation: slideDown 1s;
+}
+
+.Header p{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 800;
+    padding: 5px;
+}
+
+
+@media (max-width: 768px)  {
+    .Header p{
+        font-size: 15px;
+    }
+}

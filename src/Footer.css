@@ -1,0 +1,135 @@
+@keyframes popOut {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes sweepIn {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.Footer-Container{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.Footer-Container .Line{
+    background: #121212;
+    width: 80%;
+    height: 1px;
+    margin: auto;
+    opacity: 0.1;
+    animation: sweepIn 2s backwards;
+    animation-delay: 1s;
+}
+
+.Footer-Wrapper{
+    margin-top: 20px;
+}
+
+.Copy-Wrapper{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 4px;
+    margin-bottom: 15px;
+    animation: fadeIn 0.8s backwards;
+    animation-delay: 1s;
+}
+
+.Copy-Wrapper p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.Copy-Wrapper .Copy{
+    padding-bottom: 1px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.Footer-Wrapper .Logo{
+    height: 60px;
+    pointer-events: none;
+    animation: popOut 0.8s backwards;
+    animation-delay: 1s;
+}
+
+@media (max-width: 1440px) {
+    .Youtube-Container .Line{
+        width: 60%;
+    }
+
+    .Footer-Wrapper .Logo{
+        height: 50px;
+    }
+
+    .Copy-Wrapper{
+        gap: 0 3px;
+    }
+
+    .Copy-Wrapper p{
+        font-size: 10px;
+    }
+
+    .Copy-Wrapper .Copy{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Youtube-Container .Line{
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .Footer-Wrapper .Logo{
+        height: 40px;
+    }
+
+    .Copy-Wrapper{
+        gap: 0 2px;
+    }
+
+    .Copy-Wrapper p{
+        font-size: 8px;
+    }
+
+    .Copy-Wrapper .Copy{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Youtube-Container .Line{
+        width: 80%;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+}

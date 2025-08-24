@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'scd';
+  src: url(./fonts/SCDream-medium.otf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'scd';
+  src: url(./fonts/SCDream-medium2.otf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'scd';
+  src: url(./fonts/SCDream-extrabold.otf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nss';
+  src: url(./fonts/NotoSansSC-bold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'scd', sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

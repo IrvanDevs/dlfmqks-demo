@@ -1,0 +1,14 @@
+.App-Container{
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh; 
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+}
+  
+.fade-in.visible {
+    opacity: 1;
+}
